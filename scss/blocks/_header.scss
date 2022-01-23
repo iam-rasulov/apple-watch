@@ -17,14 +17,14 @@
   justify-content: space-between;
 }
 
-.site-navabr__item{
+.site-navabr__item {
   margin-right: 30px;
  text-decoration: none;
- color: #333333;
+ color: $main-title-color;
  border-bottom: 1px solid transparent;
- transition: 0.2s;
+ transition: 0.8s;
 
- &:hover{
+ &:hover {
    color:  black;
    border-bottom: 1px solid $main-color-black;
  }
@@ -37,8 +37,14 @@
 .site-navabr__link{
   font-family: $main-fonts-roboto;
   font-size: 15px;
-  color: $main-color-black;
+  color: $main-title-color;
+  opacity: 0.9;
   text-decoration: none;
+  transition: 0.8s ease;
+  
+  &:hover{
+    color: black;
+  }
 }
 
 .header-inner__form__input{

@@ -448,10 +448,10 @@ img {
 .site-navabr__item {
   margin-right: 30px;
   text-decoration: none;
-  color: #333333;
+  color: #000000;
   border-bottom: 1px solid transparent;
-  -webkit-transition: 0.2s;
-  transition: 0.2s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 .site-navabr__item:hover {
@@ -466,8 +466,15 @@ img {
 .site-navabr__link {
   font-family: "Roboto";
   font-size: 15px;
-  color: #333333;
+  color: #000000;
+  opacity: 0.9;
   text-decoration: none;
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
+}
+
+.site-navabr__link:hover {
+  color: black;
 }
 
 .header-inner__form__input {
