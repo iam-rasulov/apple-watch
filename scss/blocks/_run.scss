@@ -40,7 +40,7 @@
 
 .inner-box__span{
   display: flex;
-  width: 180px;
+  width: 190px;
   transition: width 0.8s ease;
 
   &:hover .inner-box__span__left {
@@ -64,7 +64,7 @@
 }
 
 .inner-box__span__right{
-  margin-right: 20px;
+  margin-right: 22px;
   font-family: $main-fonts-roboto;
   font-size: 16px;  
   font-weight: 700;

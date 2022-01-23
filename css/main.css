@@ -573,7 +573,7 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 180px;
+  width: 190px;
   -webkit-transition: width 0.8s ease;
   transition: width 0.8s ease;
 }
@@ -601,7 +601,7 @@ img {
 }
 
 .inner-box__span__right {
-  margin-right: 20px;
+  margin-right: 22px;
   font-family: "Roboto";
   font-size: 16px;
   font-weight: 700;
