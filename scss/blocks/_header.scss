@@ -20,9 +20,12 @@
 .site-navabr__item{
   margin-right: 30px;
  text-decoration: none;
+ color: #333333;
  border-bottom: 1px solid transparent;
+ transition: 0.2s;
 
  &:hover{
+   color:  black;
    border-bottom: 1px solid $main-color-black;
  }
 

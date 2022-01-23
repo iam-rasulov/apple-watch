@@ -448,10 +448,14 @@ img {
 .site-navabr__item {
   margin-right: 30px;
   text-decoration: none;
+  color: #333333;
   border-bottom: 1px solid transparent;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
 }
 
 .site-navabr__item:hover {
+  color: black;
   border-bottom: 1px solid #333333;
 }
 
@@ -513,6 +517,7 @@ img {
   margin-bottom: 185px;
   padding: 12px 38.5px;
   background-color: #EA625C;
+  opacity: 0.8;
   border: none;
   font-family: "Roboto";
   font-size: 18px;
@@ -522,7 +527,8 @@ img {
 }
 
 .intro-inner__btn:hover {
-  background-color: #d8433b;
+  background-color: #EA625C;
+  opacity: 1;
 }
 
 .run-inner {
@@ -661,6 +667,7 @@ img {
 
 .control {
   background-image: url(../images/control-bg.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
