@@ -41,14 +41,16 @@
 .inner-box__span{
   display: flex;
   width: 180px;
-  transition: 0.8s;
+  transition: width 0.8s ease;
 
   &:hover .inner-box__span__left {
     width: 60px;
+    transition: 0.8s ease;
   }
 
   &:hover .inner-box__span__right{
     margin-right: 0;
+    transition: 0.8s ease;
   }
 }
 
@@ -58,6 +60,7 @@
   margin-top: 6.5px;
   margin-right: 10px;
   background-color: $main-color-light-red;
+  transition: 0.8s ease;
 }
 
 .inner-box__span__right{

@@ -574,16 +574,20 @@ img {
   display: -ms-flexbox;
   display: flex;
   width: 180px;
-  -webkit-transition: 0.8s;
-  transition: 0.8s;
+  -webkit-transition: width 0.8s ease;
+  transition: width 0.8s ease;
 }
 
 .inner-box__span:hover .inner-box__span__left {
   width: 60px;
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
 }
 
 .inner-box__span:hover .inner-box__span__right {
   margin-right: 0;
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
 }
 
 .inner-box__span__left {
@@ -592,6 +596,8 @@ img {
   margin-top: 6.5px;
   margin-right: 10px;
   background-color: #EA625C;
+  -webkit-transition: 0.8s ease;
+  transition: 0.8s ease;
 }
 
 .inner-box__span__right {
