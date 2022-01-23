@@ -41,6 +41,7 @@
 .inner-box__span{
   display: flex;
   width: 180px;
+  transition: 0.8s;
 
   &:hover .inner-box__span__left {
     width: 60px;
