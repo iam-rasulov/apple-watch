@@ -46,3 +46,255 @@
     background-color: #d8433b;
   }
 }
+
+
+
+
+
+
+@media only screen and (max-width:320px){
+
+  .container{
+    max-width: 280px;
+    padding: 0 20px;
+  }
+
+  .freedom{
+    max-width: 280px;
+    margin: 40px auto;
+    background-position: center;
+  }
+
+  .freedom-inner{
+    max-width: 260px;
+  }
+  
+  .freedom-inner__title{
+    paDding-top: 40px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;  
+  }
+  
+  .freedom-inner__text{
+    margin-top: 12px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    color: white;
+    border-left: 2px solid white;
+  }
+  
+  .freedom-inner__btn{
+    width: 130px;
+    margin-bottom: 50px;
+    padding: 8px 18.5px;
+    font-size: 9px;
+  }
+
+}
+
+@media only screen and (max-width: 375px)  and (min-width: 321px) {
+
+  .container{
+    max-width: 335px;
+    padding: 0 20px;
+  }
+
+  .freedom{
+    max-width: 315px;
+    margin: 50px auto;
+    background-position: 0;
+  }
+
+  .freedom-inner{
+    max-width: 230px;
+  }
+  
+  .freedom-inner__title{
+    paDding-top: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 18px;  
+  }
+  
+  .freedom-inner__text{
+    margin-top: 12px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    color: white;
+    border-left: 2px solid white;
+  }
+  
+  .freedom-inner__btn{
+    width: 140px;
+    margin-bottom: 55px;
+    padding: 8px 20.5px;
+    font-size: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 425px) and (min-width: 376px) {
+
+  .container{
+    max-width: 385px;
+    padding: 0 20px;
+  }
+
+  .freedom{
+    max-width: 355px;
+    margin: 50px auto;
+    background-position: center;
+  }
+
+  .freedom-inner{
+    max-width: 240px;
+  }
+  
+  .freedom-inner__title{
+    paDding-top: 60px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;  
+  }
+  
+  .freedom-inner__text{
+    margin-top: 15px;
+    margin-bottom: 18px;
+    padding-left: 18px;
+    color: white;
+    border-left: 2px solid white;
+  }
+  
+  .freedom-inner__btn{
+    width: 150px;
+    margin-bottom: 65px;
+    padding: 8px 22.5px;
+    font-size: 12px;
+  }
+
+}
+
+@media only screen and (max-width: 525px) and (min-width: 426px) {
+  
+
+  .container{
+    max-width: 465px;
+    padding: 0 30px;
+  }
+
+  .freedom{
+    max-width: 465px;
+    background-position: center;
+  }
+
+  .freedom-inner{
+    max-width: 340px;
+  }
+  
+  .freedom-inner__title{
+    paDding-top: 90px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 38px;  
+    color: white;
+  }
+  
+  .freedom-inner__text{
+    margin-top: 18px;
+    margin-bottom: 26px;
+    padding-left: 26px;
+    color: white;
+    border-left: 2px solid white;
+  }
+  
+  .freedom-inner__btn{
+    width: 150px;
+    margin-bottom: 85px;
+    padding: 8px 26.5px;
+    font-size: 12px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 526px) {
+
+  .container{
+    max-width: 708px;
+    padding: 0 30px;
+  }
+
+  .freedom{
+    max-width: 708px;
+    background-position: calc(50% + 280px );
+  }
+
+  .freedom-inner{
+    max-width: 410px;
+  }
+  
+  .freedom-inner__title{
+    paDding-top: 110px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;  
+  }
+  
+  .freedom-inner__text{
+    margin-top: 25px;
+    margin-bottom: 32px;
+    padding-left: 30px;
+    color: white;
+    border-left: 2px solid white;
+  }
+  
+  .freedom-inner__btn{
+    width: 176px;
+    margin-bottom: 85px;
+    padding: 6px 10px;
+    font-size: 12px;
+  }
+
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 769px) {
+  
+
+  .container{
+    max-width: 1024px;
+    padding: 0 40px;
+  }
+
+  .freedom{
+    max-width: 1024px;
+    background-position: calc(50% + 330px );
+  }
+
+  .freedom-inner{
+    max-width: 500px;
+  }
+  
+  .freedom-inner__title{
+    paDding-top: 110px;
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 40px;  
+  }
+  
+  .freedom-inner__text{
+    margin-top: 25px;
+    margin-bottom: 32px;
+    padding-left: 30px;
+    color: white;
+    border-left: 2px solid white;
+  }
+  
+  .freedom-inner__btn{
+    width: 200px;
+    margin-bottom: 155px;
+    padding: 10px 34.5px;
+    font-size: 16px;
+  }
+
+}
+

@@ -70,3 +70,310 @@
   font-weight: 700;
   color: $main-color-light-red;
 }
+
+
+
+
+
+@media only screen and (max-width:320px){
+
+  .container{
+    max-width: 280px;
+    padding: 0 20px;
+  }
+
+  .run-inner{
+    flex-wrap: wrap;
+  }
+  
+  .inner-box{
+    max-width: 280px;
+    max-height: 353px;
+  }
+  
+  .inner-box__title{
+    font-size: 18px;
+  }
+  
+  .inner-box__text{
+    font-size: 15px;
+  
+  }
+  
+  .inner-box__span2{
+    width: 34px;
+  }
+  
+  .inner-box__span__mid{
+    width: 4px;
+    height: 4px;
+  
+    &:nth-child(2){
+      margin: 0 6px;
+    }
+  }
+  
+  .inner-box__span{
+    display: flex;
+    width: 190px;
+  
+    &:hover .inner-box__span__left {
+      width: 60px;
+    }
+  }
+  
+  .inner-box__span__left{
+    width: 35px;
+    height: 3px;
+    margin-top: 4px;
+    margin-right: 10px;
+  }
+  
+  .inner-box__span__right{
+    margin-right: 22px;
+    font-size: 12px;  
+  }  
+
+}
+
+@media only screen and (max-width: 375px)  and (min-width: 321px) {
+
+  .container{
+    max-width: 335px;
+    padding: 0 20px;
+  }
+
+  .run-inner{
+    flex-wrap: wrap;
+  }
+  
+  .inner-box{
+    max-width: 280px;
+    max-height: 353px;
+  }
+  
+  .inner-box__title{
+    font-size: 18px;
+  }
+  
+  .inner-box__text{
+    font-size: 15px;
+  }
+  
+  .inner-box__span2{
+    width: 24px;
+  }
+  
+  .inner-box__span__mid{
+    width: 4px;
+    height: 4px;
+  
+    &:nth-child(2){
+      margin: 0 6px;
+    }
+  }
+  
+  .inner-box__span{
+    display: flex;
+    width: 190px;
+    transition: width 0.8s ease;
+  
+    &:hover .inner-box__span__left {
+      width: 60px;
+    }
+  }
+  
+  .inner-box__span__left{
+    width: 35px;
+    height: 3px;
+    margin-top: 5.5px;
+    margin-right: 10px;
+  }
+  
+  .inner-box__span__right{
+    margin-right: 20px;
+    font-size: 13px;  
+  }
+
+}
+
+@media only screen and (max-width: 425px) and (min-width: 376px) {
+
+  .container{
+    max-width: 385px;
+    padding: 0 20px;
+  }
+
+  .run-inner{
+    flex-wrap: wrap;
+  }
+  
+  .inner-box{
+    max-width: 280px;
+    max-height: 353px;
+  }
+  
+  .inner-box__title{
+    font-size: 18px;
+  }
+  
+  .inner-box__text{
+    font-size: 15px;
+  }
+  
+  .inner-box__span2{
+    width: 27px;
+  }
+  
+  .inner-box__span__mid{
+    width: 5px;
+    height: 5px;
+  
+    &:nth-child(2){
+      margin: 0 6px;
+    }
+  }
+  
+  .inner-box__span{
+    width: 190px;
+  
+    &:hover .inner-box__span__left {
+      width: 60px;
+    }
+  }
+  
+  .inner-box__span__left{
+    width: 38px;
+    height: 3px;
+    margin-top: 5.8px;
+    margin-right: 9px;
+  }
+  
+  .inner-box__span__right{
+    margin-right: 22px;
+    font-size: 14px;  
+  }
+
+}
+
+@media only screen and (max-width: 525px) and (min-width: 426px) {
+  
+
+  .container{
+    max-width: 465px;
+    padding: 0 30px;
+  }
+
+  .run-inner{
+    flex-wrap: wrap;
+  }
+
+  .inner-box{
+    max-width: 280px;
+    max-height: 353px;
+  }
+  
+  .inner-box__title{
+    font-size: 18px;
+    
+  }
+  
+  .inner-box__text{
+    font-size: 15px;
+  }
+  
+  .inner-box__span2{
+    width: 34px;
+  }
+  
+  .inner-box__span__mid{
+    width: 8px;
+    height: 8px;
+  
+    &:nth-child(2){
+      margin: 0 10px;
+    }
+  }
+  
+  .inner-box__span{
+    width: 190px;
+  
+    &:hover .inner-box__span__left {
+      width: 60px;
+    }
+  }
+  
+  .inner-box__span__left{
+    width: 40px;
+    height: 3px;
+    margin-top: 6.5px;
+    margin-right: 10px;
+  }
+  
+  .inner-box__span__right{
+    margin-right: 22px;
+    font-size: 16px;  
+  }
+
+}
+
+@media only screen and (max-width: 768px) and (min-width: 526px) {
+  
+
+  .container{
+    max-width: 708px;
+    padding: 0 30px;
+  }
+
+  .run-inner{
+    max-width: 708px;
+  }
+  
+  .inner-box{
+    max-width: 200px;
+    max-height: 303px;
+  }
+  
+  .inner-box__title{
+    font-size: 14px;
+  }
+  
+  .inner-box__text{
+    font-size: 12px;
+  }
+  
+  .inner-box__span2{
+    width: 24px;
+  }
+  
+  .inner-box__span__mid{
+    width: 4px;
+    height: 4px;
+  
+    &:nth-child(2){
+      margin: 0 6px;
+    }
+  }
+  
+  .inner-box__span{
+    width: 100px;
+  
+    &:hover .inner-box__span__left {
+      width: 40px;
+    }
+  }
+  
+  .inner-box__span__left{
+    width: 30px;
+    height: 3px;
+    margin-top: 6.5px;
+    margin-right: 6px;
+  }
+  
+  .inner-box__span__right{
+    margin-right: 14px;
+    font-size: 10px;  
+  }
+}
+
+
