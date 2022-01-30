@@ -7,7 +7,7 @@
 .site-logo{
   width: 35px;
   height: 41.5px;
-  margin-right: 452px;
+  margin-right: 502px;
   // margin-bottom: 170px;
 }
 
@@ -20,20 +20,24 @@
 
 .site-navbar__list{
   display: flex;
+  padding: 0;
   list-style: none;
   justify-content: space-between;
 }
 
 .site-navabr__item {
   margin-right: 30px;
+  padding-bottom: 7px;
  text-decoration: none;
  color: $main-title-color;
+ opacity: 0.7;
  border-bottom: 1px solid transparent;
  transition: 0.8s;
 
- &:hover {
+ &:hover .site-navabr__link{
    color:  black;
    border-bottom: 1px solid $main-color-black;
+   opacity: 1;
  }
 
  &:nth-child(4){
@@ -42,21 +46,18 @@
 }
 
 .site-navabr__link{
+  padding-bottom: 7px;
   font-family: $main-fonts-roboto;
   font-size: 15px;
   color: $main-title-color;
-  opacity: 0.9;
+  opacity: 0.8;
   text-decoration: none;
   transition: 0.8s ease;
-  
-  &:hover{
-    color: black;
-  }
 }
 
 .header-inner__form__input{
   max-width: 159px;
-  padding: 10px;
+  padding-bottom: 8px;
   font-size: 14px;
   border: none;
   color: $main-color-black;

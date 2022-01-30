@@ -28,25 +28,24 @@
   margin-bottom: 42px;
   padding-left: 40px;
   font-family: $main-fonts-roboto;
-  border-left: 1px solid $main-color-black;
+  border-left: 3px solid #949494;
   color: $main-text-color;
 }
 
 .intro-inner__btn{
   width: 260px;
-  margin-bottom: 185px;
+  margin-bottom: 93px;
   padding: 12px 38.5px;
   background-color: $main-color-light-red;
-  opacity: 0.8;
   border: none;
   font-family: $main-fonts-roboto;
   font-size: 18px;
   color: white;
-  transition: 0.8s;
+  transition: 1s;
 
   &:hover{
     background-color: $main-color-light-red;
-    opacity: 1;
+    opacity: 0.8;
   }
 }
 
